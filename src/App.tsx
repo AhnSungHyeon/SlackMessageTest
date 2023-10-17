@@ -7,7 +7,6 @@ function App() {
   const [count, setCount] = useState(0);
 
   useEffect(() => {
-    const githubToken = import.meta.env.VITE_GITHUB_TOKEN;
     const fetchLatestCommit = async () => {
       try {
         const response = await fetch(
