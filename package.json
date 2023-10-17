@@ -12,7 +12,6 @@
     "preinstall": "npx only-allow pnpm"
   },
   "dependencies": {
-    "@octokit/rest": "^16.43.2",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   },
